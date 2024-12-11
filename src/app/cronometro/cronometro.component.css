@@ -1,0 +1,48 @@
+.volver {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 0;
+    background-color: rgb(165, 42, 165);
+    border: none;
+    cursor: pointer;
+    width: auto;
+    height: 40px; 
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+}
+.volver:hover {
+  transform: translateY(-2px);
+}
+
+.contador{
+  size-adjust: calc();
+  font-size: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 50%;  
+  display: flex;
+  justify-content: center;
+  user-select: none;
+  
+  
+}
+
+.contadorContainer{
+  display: flex;
+  margin-top: 200px;
+  margin-left: 450px;
+  background-color: rgba(0, 255, 255, 0.595);
+  flex-direction: column;
+  height: auto;
+  max-width: 300px;
+  border-radius: 10px;
+}
+.mensajes{
+  background-color: aquamarine;
+  width: auto;
+  min-height: 100px;
+  border-radius: 10px;
+}

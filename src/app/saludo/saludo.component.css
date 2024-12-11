@@ -1,0 +1,24 @@
+.volver {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 0;
+    background-color: rgb(165, 42, 165);
+    border: none;
+    cursor: pointer;
+    width: auto;
+    height: 40px; 
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+}
+.volver:hover {
+  transform: translateY(-2px);
+}
+
+h1{
+  display: flex;
+  margin-left: 50%;
+}
